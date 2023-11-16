@@ -82,3 +82,6 @@ async function handleAuthorizationCode(authorizationCode) {
 // Simulating receiving the authorization code (replace this with actual handling)
 const receivedAuthorizationCode = 'AUTHORIZATION_CODE'; -->after getting the access code i am using this access code here to run and sned the mail to the client.
 handleAuthorizationCode(receivedAuthorizationCode);
+
+and in file token.js i am using that file to get the token from the url and grant the access and run the node.js file with proper authentication code.
+
